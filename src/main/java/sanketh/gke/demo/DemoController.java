@@ -28,12 +28,12 @@ public class DemoController {
 
     @GetMapping("/")
     public String defaultWelcome() {
-        return "Welcome to Sanketh Iyer Test GCP Project";
+        return "Welcome to Sanketh Iyer Test GCP Project v2";
     }
 
     @GetMapping("/hello")
     public String getHello() {
-        return name == null ? "Hello World" : "Hello " + name;
+        return name == null ? "Hello World v2" : "Hello " + name;
     }
 
     @PostMapping("/hello")
